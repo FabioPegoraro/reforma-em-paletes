@@ -105,11 +105,12 @@ img{
 }
 
 .card-img-grande{
-    width: 100%;
+    width: 90%;
     height:150px;
     justify-content: center;
-    margin-top:10px
+    margin: 5%;
 }
+
 
 .card-text{
     text-align: center
@@ -153,28 +154,26 @@ footer{
         justify-content: center;
         align-items: center;
         display: block;
-        
     }
+
     .cards{
         width: 100%;
         max-width: 250px;    
         margin: auto;
-        margin-top: 5%;
-        
+        margin-top: 5%;    
     }
+
     .cards-grande{
         width: 100%;
         max-width: 250px; 
         height: 250px;   
         margin: auto;
         margin-top: 5%;
-        
-    
     }
+
     .card-img-grande{
-        width: 100%;
+        width: 90%;
         height:150px;
-        justify-content: center;
-        margin-top:10px
+        margin: 5%;
     }
 }
