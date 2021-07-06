@@ -38,22 +38,22 @@ const produtos = [
     {
         "id": 1008,
         "descricao":"Gabinete triangular",
-        "imagem": "../img/Mesa de Canto/mesa de canto triangular 1.jpg"
+        "imagem": "./img/Mesa de Canto/mesa de canto triangular 1.jpg"
     },
     {
         "id": 1009,
         "descricao":"Gabinete triangular com portas",
-        "imagem": "../img/Mesa de Canto/mesa de canto triangular 2.jpg"
+        "imagem": "./img/Mesa de Canto/mesa de canto triangular 2.jpg"
     },
     {
         "id": 1010,
         "descricao":"Gabinete triangular com gaveta",
-        "imagem": "../img/Mesa de Canto/mesa de canto triangular com gaveta.jpg"
+        "imagem": "./img/Mesa de Canto/mesa de canto triangular com gaveta.jpg"
     },
     {
         "id": 1011,
         "descricao": "Mesa de escritório",
-        "imagem":"../img/Escritorio/Mesa de Escritório 2.jfif"
+        "imagem":"./img/Escritorio/Mesa de Escritório 2.jfif"
     },
     {
         "id": 1012,
