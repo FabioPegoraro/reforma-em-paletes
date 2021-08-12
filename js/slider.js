@@ -8,7 +8,6 @@ function nextImage(){
     images[currentImageIndex].classList.remove("selected")
 
     currentImageIndex++
-    console.log(images)
     if(currentImageIndex >= max){
         currentImageIndex = 0
 

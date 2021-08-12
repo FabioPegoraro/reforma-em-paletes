@@ -82,91 +82,103 @@ const produtos = [
     },
     {
         "id": 1017,
-        "descricao":"Jardim suspenso",
+        "descricao":"Jardim suspenso 1",
         "imagem": "./img/Jardim/IMG-20210203-WA0031.jpg"
     },
     {
         "id": 1018,
+        "descricao":"Jardim suspenso 2 ",
+        "imagem": "./img/Jardim/Jardineira Pequena 2.jpeg"
+    },
+    {
+        "id": 1019,
+        "descricao":"Jardim suspenso 3 ",
+        "imagem": "./img/Jardim/Jarineira Grande 1.jpeg"
+    },
+    {
+        "id": 1020,
         "descricao":"Jardim para parede",
         "imagem": "./img/Jardim/Paletes para Suculentas 4.jpeg"
     },
     {
-        "id": 1019,
+        "id": 1021,
         "descricao":"Jardim suspenso",
         "imagem": "./img/Jardim/Parede de Paletes para suculenta 1.jpeg"
     },
     {
-        "id": 1020,
+        "id": 1022,
         "descricao":"Vaso para plantas",
         "imagem": "./img/Jardim/Vaso para planta.jpg"
     },
     {
-        "id": 1021,
+        "id": 1023,
         "descricao":"Banco",
         "imagem": "./img/Banco/Banco de Madeira 1.jpeg"
     },
     {
-        "id": 1022,
+        "id": 1024,
         "descricao":"Banco para 2 lugares",
         "imagem": "./img/Banco/Banco de Madeira 4.jpeg"
     },
     {
-        "id": 1023,
+        "id": 1025,
         "descricao":"Banco-Escada",
         "imagem": "./img/Banco/banco-escada 2.jpg"
     },
     {
-        "id": 1024,
+        "id": 1026,
         "descricao":"Banco-Escada",
         "imagem": "./img/Banco/banco-escada 1.jpg"
     },
     {
-        "id": 1025,
+        "id": 1027,
         "descricao":"Conjunto de bancos com mesa de centro",
         "imagem": "./img/Banco/conjunto-de-bancos 1.jpg"
     },
     {
-        "id": 1026,
+        "id": 1028,
         "descricao":"Conjunto de bancos com mesa de centro",
         "imagem": "./img/Banco/conjunto-de-bancos 2.jpg"
     },
     {
-        "id": 1027,
+        "id": 1029,
         "descricao":"Conjunto de bancos com mesa de centro",
         "imagem": "./img/Banco/conjunto-de-bancos 5.jpg"
     },
     {
-        "id": 1028,
+        "id": 1030,
         "descricao":"Conjunto de bancos com mesa de centro",
         "imagem": "./img/Banco/conjunto-de-bancos 3.jpg"
     },
     {
-        "id": 1029,
+        "id": 1031,
         "descricao":"Conjunto de bancos com mesa de centro",
         "imagem": "./img/Banco/conjunto-de-bancos 4.jpg"
     },
     {
-        "id": 1030,
+        "id": 1032,
         "descricao":"Tampa para barril",
         "imagem": "./img/Tampa para Barril.jpg"
     },
     {
-        "id": 1031,
+        "id": 1033,
         "descricao":"Prateleira para garrafas",
         "imagem": "./img/Bar/146443651_464842208227935_2713496553011082318_n.jpg"
     },
     {
-        "id": 1032,
+        "id": 1034,
         "descricao":"Bar em paletes com luz de led",
         "imagem": "./img/Bar/Bar - Cilene 2.jpeg"
     },
     {
-        "id": 1033,
+        "id": 1035,
         "descricao":"Bar em paletes",
         "imagem": "./img/Bar/Bar 1.jpeg"
     }
 
 ]
+
+
 
 const DOM = {
 
@@ -180,11 +192,10 @@ const DOM = {
     
         DOM.produtosContianer.appendChild(card)
 
-        console.log(DOM.produtosContianer.appendChild(card))
+        // console.log(DOM.produtosContianer.appendChild(card))
     },
 
     innerHTMLcard(produto, index){
-
         
         const html = `
         <img src="${produto.imagem}" class="card-img-top" alt="${produto.descricao}">
@@ -198,6 +209,8 @@ const DOM = {
     }
         
 }
+
+
 
 const APP = {
     init(){
